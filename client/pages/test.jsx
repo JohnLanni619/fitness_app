@@ -12,7 +12,7 @@ export default function Test() {
         <div>
             {data.map(data => {
                 return (
-                    <div>
+                    <div key={ data.id }>
                         <h1>{ data.id }</h1>
                         <p> { data.description }</p>
                     </div>
