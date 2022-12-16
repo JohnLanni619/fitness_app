@@ -5,6 +5,14 @@ const fetcher = (...args) => fetch(...args).then((res) => res.json())
 export default function Test() {
     const { data, error } = useSWR('/api/hello', fetcher)
 
+    async function getData() {
+        const response = await fetch('/api/hello');
+        const data = await response.json()
+        console.log(data)
+    }
+
+    getData()
+
     if (error) return <div>Failed to load</div>
     if (!data) return <div>Loading...</div>
 
