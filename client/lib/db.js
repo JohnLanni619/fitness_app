@@ -19,3 +19,7 @@ export default async function executeQuery( query_string, values = []) {
       return e;
     }
   }
+
+//"user": "admin",
+// "password": "ucRE6WP7krCnaFBV8q9U",
+// "endpoint": "fitness-app.cyipxmqldbdn.us-east-1.rds.amazonaws.com"
