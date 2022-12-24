@@ -13,3 +13,6 @@ client.connect(err => {
 //"user": "FoodLog",
 // "password": "tCPECXmBGvf5FxHG",
 //Connection String: mongodb+srv://<username>:<password>@fitness-app.hgfkng9.mongodb.net/?retryWrites=true&w=majority
+
+
+
