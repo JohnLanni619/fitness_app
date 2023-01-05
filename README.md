@@ -37,6 +37,7 @@
 * Downloaded MongoDB atlas cli to project
 * Added env.local 
 * Working on building the Api. Added a data folder testing out how to get a res and req into the app. Check client.data, pages.api.macros, and pages.macros. 
+* Got to localhost:{number}/macros to see new api. We can build a tab bar to navigate.
 
 ## Deploy on Vercel
 * The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
